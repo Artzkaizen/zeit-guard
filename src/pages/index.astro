@@ -1,21 +1,25 @@
 ---
-import '../styles/global.css';
-// Component Imports
-import {Button} from '@/components/ui/button';
+import Header from "@/components/blocks/header";
+import Footer from "@/components/blocks/footer";
+import "../styles/global.css";
+import Hero from "@/components/blocks/hero";
+import Main from "@/components/blocks/main";
 ---
-<html lang="en">
-	<head>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width" />
-		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-		<meta name="generator" content={Astro.generator} />
-		<title>Astro + TailwindCSS</title>
-	</head>
 
-	<body>
-		<div class="grid place-items-center h-screen content-center">
-			<Button>Tailwind Button in Astro!</Button>
-			<a href="/markdown-page" class="p-4 underline">Markdown is also supported...</a>
-		</div>
-	</body>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="generator" content={Astro.generator} />
+    <title>Zeit Guard</title>
+  </head>
+  <body class="container relative mx-auto dark">
+    <Header client:load />
+    <main>
+      <Hero />
+    </main>
+    <Main client:load />
+    <Footer />
+  </body>
 </html>
