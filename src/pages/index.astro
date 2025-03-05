@@ -6,7 +6,7 @@ import Hero from "@/components/blocks/hero";
 import Faq from "@/components/blocks/faq";
 import CTA from "@/components/blocks/cta";
 import "../styles/global.css";
-import InsightsCard from "@/components/blocks/insight-card";
+import Features from "@/components/blocks/features";
 ---
 
 <html lang="en">
@@ -21,12 +21,7 @@ import InsightsCard from "@/components/blocks/insight-card";
     <Header client:load />
     <main class="max-sm:p-4">
       <Hero />
-
-      <div class="grid grid-cols-3 gap-4">
-        <InsightsCard />
-        <InsightsCard />
-        <InsightsCard />
-      </div>
+      <Features />
       <Faq client:load />
       <CTA />
       <Footer />

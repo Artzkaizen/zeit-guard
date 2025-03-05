@@ -10,13 +10,13 @@ const content = [
     value: "item-1",
     question: "What is ZeitGuard, and how does it work?",
     answer:
-      "ZeitGuard is a productivity platform that helps you manage tasks, track progress, and collaborate with your team. It works by providing intuitive tools for project management, time tracking, and workflow optimization.",
+      "ZeitGuard is a productivity platform that helps you manage tasks, track progress, and collaborate with your mates. It works by providing invaluable tips from scientifically proven techniques on how to manage procrastination in additio we offer intuitive tools for project management, time tracking, and workflow optimization.",
   },
   {
     value: "item-2",
-    question: "Is there a free version of ZeitGuard?",
+    question: "Can I set reminders for tasks and deadlines?",
     answer:
-      "Yes! Our Free Plan (Demo Version) allows you to explore basic features like task tracking, limited productivity insights, and one connected app integration. It's perfect for getting started and understanding how ZeitGuard can fit into your workflow.",
+"Absolutely! ZeitGuard's reminder system allows you to set customizable reminders to ensure you never miss a deadline again."
   },
   {
     value: "item-5",

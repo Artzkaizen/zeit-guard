@@ -63,9 +63,9 @@ export const HeroSection = () => {
                 </button>
               </div>
 
-              {/* Learn More Link */}
+              {/* Download Link*/}
               <div className="group">
-                <a href="/#intro" className="flex flex-col items-center gap-1">
+                <a href="/#features" className="flex flex-col items-center gap-1">
                   <p className="text-sm/6 text-zinc-400 duration-300 group-hover:text-zinc-100">
                     Learn more
                   </p>
@@ -81,14 +81,19 @@ export const HeroSection = () => {
                   <img
                     src="/1.svg"
                     className="object-cover"
+                    width={300}
+                    height={300}
                     alt="A Snapshot displaying zeit gaurd's journey feature"
                   />
                   <img
                     src="/2.svg"
                     className="mb-32 object-cover"
                     alt="A home screen snapshot of zeit guard"
+                    width={300}
+                    height={300}
                   />
-                  <img src="/3.svg" alt="" className="object-cover" />
+                  <img src="/3.svg" alt="" className="object-cover" width={300}
+                    height={300}/>
                 </div>
               </div>
             </div>
