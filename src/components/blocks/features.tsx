@@ -4,31 +4,31 @@ const features = [
   {
     title: 'Journey',
     description: "The journey of a thousand miles begins with a single step. Let's take that step together. We provide you with an encyclopedia of knowledge and tools to help you along the way.",
-    image: '/journey.svg'
+    image: '/zeit-guard/journey.svg'
   },
   {
     title: 'Task Management',
     description: "Yes, we know, yet another task manager 🙄. This is key to forming excellent habits and keeping track of your progress.",
-    image: '/task.svg'
+    image: '/zeit-guard/task.svg'
   },
   {
     title: 'Focus Room',
     description: "The focus room is a place where you can concentrate on your work without any distractions. It's a great way to get things done.",
-    image: '/focus.svg'
+    image: '/zeit-guard/focus.svg'
   },
   {
     title: 'ICU Emergency Self Help Kit',
     description: "In case of emergency, break glass. Please don't break the glass, but we have tips on how to get things done ASAP.",
-    image: '/icu.svg'
+    image: '/zeit-guard/icu.svg'
   },
   {
     title: 'ZeitPost',
     description: "Taking proactive steps now will contribute to a healthier, more fulfilling life in the years to come.",
-    image: 'post.svg'
+    image: '/zeit-guard/post.svg'
   },
   {
     title: 'ZeitPost',
-    image: 'post.svg',
+    image: '/zeit-guard/post.svg',
     description: "ZeitGuard focuses on a unique approach to procrastination. We are fighting a war against procrastination and bad habits. Join us as we explore the world."
   }
 ];
