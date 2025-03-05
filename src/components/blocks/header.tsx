@@ -21,7 +21,7 @@ export function MobileMenu() {
         <SheetHeader>
         <div className="flex lg:flex-1">
               <a href="/" className="flex items-center space-x-2">
-                <img className="size-8" src="/logo.svg" alt="" />
+                <img className="size-8" src="/zeit-guard/logo.svg" alt="Zeit Gaurd LogoZeit Guard Logo" />
                 <span>ZeitGuard</span>
               </a>
             </div>
@@ -79,7 +79,7 @@ const Header = () => {
           >
             <div className="flex lg:flex-1">
               <a href="/" className="flex items-center space-x-2">
-                <img className="size-8" src="/logo.svg" alt="" />
+                <img className="size-8" src="/zeit-guard/logo.svg" alt="Zeit Gaurd Logo" />
                 <span>ZeitGuard</span>
               </a>
             </div>

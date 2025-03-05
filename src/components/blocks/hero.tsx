@@ -79,20 +79,20 @@ export const HeroSection = () => {
               <div className="rounded-md  lg:rounded-2xl">
                 <div className="flex justify-center items-center">
                   <img
-                    src="/1.svg"
+                    src="/zeit-guard/1.svg"
                     className="object-cover"
                     width={300}
                     height={300}
                     alt="A Snapshot displaying zeit gaurd's journey feature"
                   />
                   <img
-                    src="/2.svg"
+                    src="/zeit-guard/2.svg"
                     className="mb-32 object-cover"
                     alt="A home screen snapshot of zeit guard"
                     width={300}
                     height={300}
                   />
-                  <img src="/3.svg" alt="" className="object-cover" width={300}
+                  <img src="/zeit-guard/3.svg" alt="" className="object-cover" width={300}
                     height={300}/>
                 </div>
               </div>
