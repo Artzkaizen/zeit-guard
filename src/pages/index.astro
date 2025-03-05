@@ -1,25 +1,35 @@
 ---
 import Header from "@/components/blocks/header";
 import Footer from "@/components/blocks/footer";
-import "../styles/global.css";
 import Hero from "@/components/blocks/hero";
-import Main from "@/components/blocks/main";
+
+import Faq from "@/components/blocks/faq";
+import CTA from "@/components/blocks/cta";
+import "../styles/global.css";
+import InsightsCard from "@/components/blocks/insight-card";
 ---
 
 <html lang="en">
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width" />
-    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="icon" type="image/svg+xml" href="/logo.svg" />
     <meta name="generator" content={Astro.generator} />
     <title>Zeit Guard</title>
   </head>
-  <body class="container relative mx-auto dark">
+  <body class="relative mx-auto dark scroll-smooth">
     <Header client:load />
-    <main>
+    <main class="max-sm:p-4">
       <Hero />
+
+      <div class="grid grid-cols-3 gap-4">
+        <InsightsCard />
+        <InsightsCard />
+        <InsightsCard />
+      </div>
+      <Faq client:load />
+      <CTA />
+      <Footer />
     </main>
-    <Main client:load />
-    <Footer />
   </body>
 </html>
