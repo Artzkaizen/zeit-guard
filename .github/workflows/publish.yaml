@@ -17,11 +17,11 @@ jobs:
       - name: Checkout your repository using git
         uses: actions/checkout@v4
       - name: Setup pnpm
-        uses: pnpm/action-setup@v2
+        uses: pnpm/action-setup@v4
         with:
-          version: 6.14.8
+          version: 9.15.4
 
-      - name: Install, build, and upload your site
+      - name: Install, build, and upload ZeitGuard
         uses: withastro/action@v3
 
   deploy:
