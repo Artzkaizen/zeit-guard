@@ -18,6 +18,17 @@ import Features from "@/components/blocks/features";
       name="google-site-verification"
       content="-X3OLTM7SLLAYQcC3q2aUUNgOeYawZrCX7PAFuTtVF0"
     />
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-ESN7THRGBZ"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+
+      gtag("config", "G-ESN7THRGBZ");
+    </script>
     <meta name="generator" content={Astro.generator} />
     <title>Zeit Guard</title>
   </head>
